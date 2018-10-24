@@ -1,0 +1,11 @@
+{{#data}}
+    {{#banner}}
+        <li class="swiper-slide" data-bannerId={{id}}>
+            <input type="hidden" class="surveyType" value="{{type}}"/>
+            <img src={{banner}}  onerror="javascript:src='images/noimage.jpg';">
+            <div class="maskWrapper">
+                <span class="textoverconfig  textContent">{{subject}}</span>
+            </div>
+        </li>
+    {{/banner}}
+{{/data}}

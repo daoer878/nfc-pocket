@@ -1,0 +1,3 @@
+feature名 + 局部功能名.html
+
+例如shop_productDetail.html（商品详情）

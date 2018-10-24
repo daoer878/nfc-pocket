@@ -1,0 +1,27 @@
+<div class="recommended_jobs">
+    <p class="job_list_tips">根据您的需求，人仔帮您推荐以下相关职位:</p>
+    {{#info_list}}
+    <p data-id={{_id}} class="job_item">
+        <a>{{_source.jobDescription}}</a>
+    </p>
+    {{/info_list}}
+    {{^info_list}}
+    <p>暂时没有符合您要求的职位</p>
+    {{/info_list}}
+    <div class="job_list_pager">
+        <div class="job_num">
+            总共 : <span>{{totalNum}}</span>条
+        </div>
+        <div class="job_pager_btns">
+            <p class="query_json" style="display: none;">{{queryJson}}</p>
+            <button class="pager_btn last_pg" data-curr={{current_page}}   data-total={{totalPage}}>上一页</button>
+            <div class="job_page">
+                当前页
+                {{#current_page}}<span>{{current_page}}</span>{{/current_page}}
+                {{^current_page}}<span>1</span>{{/current_page}}
+                / <span>{{totalPage}}</span>
+            </div>
+            <button class="pager_btn next_pg" data-curr={{current_page}}   data-total={{totalPage}}>下一页</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+<div class="answer">
+    <div class="heard_img left">
+        <img src="images/image/icon-help-desk.png"/>
+    </div>
+    <div class="answer_text">
+        <div class="text_content">
+            <p> {{message}} </p>
+            <div>
+                {{#parameter}}
+                    <button class="answer_prm_btn">{{.}}</button>
+                {{/parameter}}
+            </div>
+            {{#review_str}}
+                <hr class="str_divider"/>
+                <p class="answer_review_str"> {{review_str}}</p>
+            {{/review_str}}
+            <i></i>
+        </div>
+    </div>
+    {{#is_show}}
+        <div class="recommended_jobs">
+            <p class="job_list_tips">根据您的需求，人仔帮您推荐以下相关职位:</p>
+            {{#info_list}}
+                <p data-id={{_id}} class="job_item">
+                    <a>{{_source.jobDescription}}</a>
+                </p>
+            {{/info_list}}
+            {{^info_list}}
+                <p>暂时没有符合您要求的职位</p>
+            {{/info_list}}
+            <div class="job_list_pager">
+                <div class="job_num">
+                    总共 : <span>{{totalNum}}</span>条
+                </div>
+                <div class="job_pager_btns">
+                    <p class="query_json" style="display: none;">{{queryJson}}</p>
+                    <button class="pager_btn last_pg" data-curr={{curr_page}} data-total={{totalPage}}>上一页</button>
+                    <div class="job_page">
+                        当前页
+                        {{#curr_page}}<span>{{curr_page}}</span>{{/curr_page}}
+                        {{^curr_page}}<span>1</span>{{/curr_page}}
+                        / <span>{{totalPage}}</span>
+                    </div>
+                    <button class="pager_btn next_pg" data-curr={{curr_page}} data-total={{totalPage}}>下一页</button>
+                </div>
+            </div>
+        </div>
+    {{/is_show}}
+</div>

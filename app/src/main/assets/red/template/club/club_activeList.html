@@ -1,0 +1,17 @@
+{{#data}}
+    <dl class="clrFixed clubActiveItem" data-activityId="{{id}}">
+      <dt>
+        {{#banner}}<img src={{banner}} alt="" onerror="javascript:src='images/noimage.jpg';">{{/banner}}
+      </dt>
+      <dd class="right">
+        {{#subject}}<h3>{{subject}}</h3>{{/subject}}
+        {{#brief_content}}<div>{{brief_content}}</div>{{/brief_content}}
+        {{#deadlines}}<div class="deadlines">{{deadlines}}</div>{{/deadlines}}
+        {{#showEndTime}}<div class="deadlines">{{showEndTime}}</div>{{/showEndTime}}
+        {{#showStartTime}}<div class="deadlines">{{showStartTime}}</div>{{/showStartTime}}
+      </dd>
+        {{#type}}<div class="club_ongoing_right"><span class="theseColor">{{type}}</span></div>{{/type}}
+        {{^type}}<div class="club_ongoing_right"><span class="otherColor">Other</span></div>{{/type}}
+      <i class=""></i>
+    </dl>
+{{/data}}

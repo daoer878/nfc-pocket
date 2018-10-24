@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="82px" viewBox="0 0 86 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-jobs</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon" transform="translate(-475.000000, -240.000000)">
+            <g id="icon-jobs" transform="translate(475.000000, 242.000000)">
+                <rect id="Rectangle-9" stroke="#F26647" stroke-width="4" x="2" y="18" width="82" height="60" rx="5"></rect>
+                <path d="M21,20 L21,5 C21,2.23857625 23.2385763,0 26,0 L60,0 C62.7614237,0 65,2.23857625 65,5 L65,20" id="Rectangle-9-Copy" stroke="#F26647" stroke-width="4"></path>
+                <rect id="Rectangle-10" fill="#F26647" x="0" y="46" width="86" height="4"></rect>
+                <rect id="Rectangle-10-Copy" fill="#F26647" transform="translate(21.500000, 48.000000) rotate(90.000000) translate(-21.500000, -48.000000) " x="14" y="46" width="15" height="4" rx="2"></rect>
+                <rect id="Rectangle-10-Copy-2" fill="#F26647" transform="translate(64.500000, 48.000000) rotate(90.000000) translate(-64.500000, -48.000000) " x="57" y="46" width="15" height="4" rx="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

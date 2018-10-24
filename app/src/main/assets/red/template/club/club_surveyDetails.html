@@ -1,0 +1,85 @@
+{{#survey}}
+<div class="clubActivity-inner survey-detail">
+    <div class="activeDetails" id="surveyDetails">
+        {{#banner}}
+        <div class="banner">
+            <img src="{{banner}}" alt="" onerror="javascript:src='images/noimage.jpg';">
+        </div>
+        {{/banner}}
+        <div class="details-content">
+            <h4 class="subject">{{SUBJECT}}</h4>
+            <div class="subMsg">
+                <span class="postTime">Posted on {{first_publish_time}}</span>
+                <span class="browse_times">{{browse_times}}</span>
+            </div>
+            <div class="details-msg">
+                {{{description}}}
+            </div>
+            <dl class="note">
+                <dt>Deadline:</dt>
+                <dd>{{deadline}}</dd>
+            </dl>
+        </div>
+        <!-- 评论 -->
+        <div class="comments_component">
+            <div class="comments_tab" id="comments_praises">
+                <div class="comments_tab_com comments_tab_com-survey">
+                    <i class="comments_icon"></i>
+                    <span class="comments_count">{{#commentAmount}}{{commentAmount}}{{/commentAmount}}{{^commentAmount}}Comment{{/commentAmount}}</span>
+                </div>
+                <div class="comments_tab_like">
+                    <i class="praises_icon"></i>
+                    <span class="praises_count">{{#likeAmount}}{{likeAmount}}{{/likeAmount}}{{^likeAmount}}Like{{/likeAmount}}</span>
+                </div>
+            </div>
+
+            <div class="commentArea">
+                <div class="comments_add_text_area">
+                    <div class="allcomments_text">All comments</div>
+                    <div class="addcomments_icon">
+                    </div>
+                </div>
+                <div class="no_comment">
+                    Tap the plus button to make the first comment!
+                </div>
+
+                <div id="wrapper_comments_component" class="wrapper">
+                    <ul id="comments_component_listview_survey" class="comments_listview"  data-role="listview">
+                    </ul>
+                    <div class="loading_comments">
+                        <span class="loadingIcon"></span>
+                        <span class="loadingLabel">Load more comments </span>
+                    </div>
+                    <div class="nomore_comments">
+                        <span class="noLabel">No more comments</span>
+                    </div>
+                <span class="backtop">
+                    <a data-ajax="false" data-role="none" href="#surveyDetails">
+                        <i class="top_icon"></i>
+                    </a>
+                </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="add_comment" style="bottom:0;display:none;">
+        <div style="background: #fff;padding: 8px 10px;height: 50px">
+            <input name="addinfo" class="commentinfo_video" maxlength="300" autocomplete="off" autocapitalize="off" autocorrect="off" data-role="none" placeholder="Enter your comment(Max is 300 charaters)" style="background-color: #fff; font-family: Arial; border-radius: 0px; width: 77%; font-size: 14px; border: 0px;border: none; padding: 0px; margin: 0px; float: left; height: 35px; color: #000;outline: none;">
+            <span class="commit_comments" style="width: 20%; float: right; line-height: 35px; border-left: 1px solid #d7d8d6; padding: 0; color: #404040; text-align: center;">Send</span>
+        </div>
+    </div>
+</div>
+<div class="clubSurveyBtn">
+    <button class="js-actOver"></button>
+</div>
+<!--<div class="clubRegisterAcbtn" id="{{survey_id}}">
+    <button class="js-actOver tips" disabled>Activity Expired</button>
+    <button class="js-regOver tips" disabled>Register Ended</button>
+    <button class="js-pending tips" disabled>Pending review</button>
+    <button class="js-rejust tips" disabled>Rejected</button>
+    <button class="js-registerNow btn_details_registerNow" data-transition="slide">Register Now</button>
+    <button class="js-addCalendar btn_activity_details_calendar" data-transition="slide">Add to calendar</button>
+</div>-->
+{{/survey}}
+

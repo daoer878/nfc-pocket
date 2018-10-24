@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="14px" viewBox="0 0 10 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Location</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="-" transform="translate(-300.000000, -82.000000)">
+            <g id="Location" transform="translate(295.000000, 79.000000)">
+                <rect id="Rectangle" x="0" y="0" width="20" height="20"></rect>
+                <g id="Group" transform="translate(5.000000, 3.000000)">
+                    <path d="M5,14 C8.33333333,9.78007525 10,6.76046741 10,4.94117647 C10,2.21224006 7.76142375,0 5,0 C2.23857625,0 0,2.21224006 0,4.94117647 C0,6.76046741 1.66666667,9.78007525 5,14 Z" id="Oval" fill="#7A717A"></path>
+                    <circle id="Oval-2" fill="#FFFFFF" cx="5" cy="5" r="2"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

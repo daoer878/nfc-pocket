@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>liked</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="-" transform="translate(-353.000000, -81.000000)">
+            <g id="liked" transform="translate(352.000000, 79.000000)">
+                <rect id="Rectangle-4" x="0" y="0" width="20" height="20"></rect>
+                <path d="M13.9375,2 C12.385,2 10.945,2.80080754 10,4.10497981 C9.055,2.80080754 7.615,2 6.0625,2 C3.2725,2 1,4.51682369 1,7.62853297 C1,9.48183042 1.81,10.7860027 2.4625,11.8156124 C4.3525,14.858681 9.145,18.6110363 9.3475,18.7711978 C9.55,18.9313594 9.775,19 10,19 C10.225,19 10.45,18.9313594 10.6525,18.7711978 C10.855,18.6110363 15.625,14.8358008 17.5375,11.8156124 C18.19,10.7631225 19,9.4589502 19,7.62853297 C19,4.5397039 16.7275,2 13.9375,2 Z" id="Shape" fill="#F26647" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
