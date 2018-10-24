@@ -7133,3 +7133,8 @@ b {
     background-size: 40px;
     left: 10px;
 }
+.icon-nfc {
+    background-image: url("../../images/image/1x/nfc-card.png");
+    background-size: 40px;
+    left: 10px;
+}
