@@ -7138,3 +7138,100 @@ b {
     background-size: 40px;
     left: 10px;
 }
+.home-bg{
+  height: 100%;
+  width: 100%;
+    background: linear-gradient(to bottom, #FB966E, #E16B8C);
+
+}
+
+.main_content{
+height: 98%;
+width: 100%;
+}
+
+.tips{
+  background-color: white;
+  height: 89%;
+  width: 90%;
+  margin: auto;
+  border-radius: 15px;
+  margin-top:5%;
+}
+
+.tips_container{
+  height: 30%;
+  text-align: center;
+}
+
+.tips_content{
+  font-size: medium;
+  font-weight: bold;
+}
+
+.nfc_msg{
+  text-align: center;
+}
+
+
+.access_control{
+  height: 20%;
+  display: flex;
+}
+
+.access_control_area_container{
+  width: 48%;
+}
+
+.access_control_area_title{
+  font-size: medium;
+  height: 35%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.access_control_area_content{
+  margin-top: 2%;
+  height: 70%;
+  font-size: large;
+  margin-left: 10%;
+  font-weight: bold;
+}
+
+.access_control_period_container{
+  width: 48%;
+  margin-left: 4%;
+}
+
+.access_control_period_title{
+  font-size: medium;
+  height: 35%;
+  margin-top: 5%;
+}
+
+.access_control_period_content{
+  margin-top: 2%;
+  height: 570%;
+  font-size: large;
+  font-weight: bold;
+}
+
+.options{
+height: 18%;
+display: flex;
+flex-direction: row;
+}
+
+.apply_access{
+  width: 50%;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+}
+
+.settings{
+  width: 50%;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+}

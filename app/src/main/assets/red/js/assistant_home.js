@@ -10,7 +10,10 @@ define(['jquery', 'jquerymobile', 'club','net', 'md5','dialogs','line','shop'], 
         window.shouldPageRefresh.clubActivity = true;
         $.mobile.newChangePage("#card",{ transition: "slide",reverse: false,changeHash: false,allowSamePageTransition:true});
     });
-
+    $('#nfc_menu').off('click').on('click',function(){
+        window.shouldPageRefresh.clubActivity = true;
+        $.mobile.newChangePage("#nfc",{ transition: "slide",reverse: false,changeHash: false,allowSamePageTransition:true});
+    });
     // 进入club页面
     $("#club_menu").off('click').on('click',function(){
         alert("你点击了club-menu")
